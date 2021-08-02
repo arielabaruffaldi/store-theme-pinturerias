@@ -167,8 +167,8 @@
       "blockClass": "info-availability"
     },
     "children": [
-      "flex-layout.row#product-name",
-      "tintometric",
+      "flex-layout.row#product-name",/* 
+      "tintometric", */
       "product-identifier.product",
       "sku-selector",
       "flex-layout.row#availability"
