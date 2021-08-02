@@ -64,6 +64,9 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x"
   },
+  "peerDependencies": {
+    "vtexarg.tintometric": "0.x"
+  },
   "billingOptions": {
     "support": {
       "url": "https://support.vtex.com/hc/requests"
@@ -72,9 +75,6 @@
     "availableCountries": [
       "*"
     ]
-  },
-  "peerDependencies": {
-    "vtexarg.tintometric": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
