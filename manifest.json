@@ -64,6 +64,15 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x"
   },
+  "billingOptions": {
+    "support": {
+      "url": "https://support.vtex.com/hc/requests"
+    },
+    "type": "free",
+    "availableCountries": [
+      "*"
+    ]
+  },
   "peerDependencies": {
     "vtexarg.tintometric": "0.x"
   },
