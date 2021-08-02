@@ -65,7 +65,7 @@
     "vtex.css-handles": "1.x"
   },
   "peerDependencies": {
-    "vtexarg.tintometric": "0.x"
+    "vtexarg.tintometric": "1.x"
   },
   "billingOptions": {
     "support": {
