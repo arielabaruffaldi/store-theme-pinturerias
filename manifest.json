@@ -1,7 +1,7 @@
 {
   "vendor": "abaruffaldi",
   "name": "store",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -65,7 +65,7 @@
     "vtex.css-handles": "1.x"
   },
   "peerDependencies": {
-    "vtexarg.tintometric": "1.x"
+    "vtexarg.tintometric": "2.x"
   },
   "billingOptions": {
     "support": {
