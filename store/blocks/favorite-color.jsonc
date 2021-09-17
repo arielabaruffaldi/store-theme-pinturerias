@@ -1,0 +1,19 @@
+{
+  "store.custom#favorite-colors": {
+    "children": [
+      "flex-layout.row#favorite-color"
+    ]
+  },
+  "flex-layout.row#favorite-color":{
+    "children": [
+      "favorite-color"
+    ],
+    "props": {
+      "blockClass": "favorite-color--container"
+    }
+  },
+  "favorite-color": {
+    "props": {
+    }
+  }
+}

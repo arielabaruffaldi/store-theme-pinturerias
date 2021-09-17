@@ -16,24 +16,26 @@
   }
 }
 
-.flexRowContent--menu-link {
-  background-color: #03044e;
-  color: #fff;
+:global(.vtex-button){
+  padding: 0.7rem 1rem;
+  border-radius: 50px;
+  border: 1.5px solid black;
 }
 
 .flexRowContent--main-header {
   background-color: #f0f0f0;
 }
 
+:global(.vtex-button__label) {
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: 900;
+}
+
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
   background-color: #f0f0f0;
-}
-
-.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-  color: #ffffff;
-  font-size: 14px;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
@@ -91,4 +93,8 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRow--favorite-color--container .stretchChildrenWidth {
+  display: block;
 }

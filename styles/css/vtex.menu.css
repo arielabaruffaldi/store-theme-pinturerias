@@ -1,0 +1,185 @@
+@media only screen and (max-width: 600px) {
+  .menuContainerNav {
+    width: 100%;
+  }
+}
+
+.styledLinkContainer--header-menu-title {
+  padding: 0;
+}
+@media only screen and (max-width: 600px) {
+  .styledLinkContainer--header-menu-title {
+    margin: 0;
+  }
+}
+
+.styledLinkContainer--header-menu-title .styledLinkContent--header-menu-title {
+  text-align: center;
+  color: #000;
+  font-family: "SpartanMedium";
+  padding: 0 20px;
+  padding: 0;
+}
+
+.styledLinkContainer--header-menu-title .styledLink--header-menu-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .styledLinkContainer--header-menu-title .styledLink--header-menu-title {
+    justify-content: flex-start;
+    font-family: "SpartanBold";
+    pointer-events: none;
+  }
+}
+
+.styledLinkContainer--header-menu-title .styledLinkContent--header-menu-title:hover {
+  font-family: "SpartanBold";
+  text-decoration: unset;
+  border-bottom: unset;
+}
+
+.styledLinkContainer--header-menu-title .styledLink--header-menu-title:hover {
+  font-family: "SpartanBold";
+  text-decoration: unset;
+  border-bottom: unset;
+}
+
+.menuContainer--categories-menu {
+  justify-content: space-between;
+  /* padding: 0.75rem 2rem; */
+  background-color: white;
+}
+
+.submenuWrapper--header-submenu-container {
+  background-color: white;
+  padding: 40px 320px 70px;
+  margin-top: 35px;
+  border-top: 1px solid #e6e6e6;
+}
+@media only screen and (max-width: 600px) {
+  .submenuWrapper--header-submenu-container {
+    padding: 0;
+  }
+}
+
+.submenuWrapper--header-submenu-container :global(.vtex-flex-layout-0-x-flexRow--header-submenu) {
+  width: 100%;
+}
+
+.styledLinkContainer--header-menu-item {
+  margin: 0;
+  padding: 0;
+}
+
+.styledLink--header-menu-item {
+  margin: 0;
+  padding: 0.25rem 0;
+  display: block;
+}
+
+.menuItem--header-menu-title {
+  text-align: center;
+  color: #474b4d;
+  font-family: "SpartanRegular";
+  font-size: 15px;
+  padding: 0.75rem 0;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .menuItem--header-menu-title {
+    text-align: left;
+    margin: 0 1rem;
+  }
+}
+
+.styledLinkContainer--header-submenu-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+  border-bottom: none;
+}
+
+.flexColChild--submenu-pisos-1-rowcontent .styledLinkContainer--header-submenu-title {
+  margin-bottom: 0px !important;
+}
+
+.styledLink--header-submenu-title {
+  font-size: 1rem;
+  color: #000;
+  font-family: "SpartanMedium";
+  display: block;
+  padding-bottom: 0.4rem;
+}
+
+.styledLinkContainer--header-submenu-column {
+  padding: 0.25rem 0;
+  margin: 0;
+}
+
+.styledLink--header-submenu-column {
+  font-size: 12px;
+  margin-bottom: 22.5px;
+  color: #3f3f3f;
+  display: block;
+}
+@media only screen and (max-width: 600px) {
+  .styledLink--header-submenu-column {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .submenuAccordion {
+    padding: 2rem;
+    padding-top: 1rem;
+    flex-direction: column;
+    font-family: "SpartanBold";
+    font-size: 12px;
+  }
+
+  .styledLink .styledLinkContent {
+    justify-content: center;
+    font-family: "SpartanRegular";
+    margin: 0 1rem;
+    padding: 1.5rem 0;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .styledLinkContent--header-submenu-column-pisos {
+    margin: 0rem !important;
+    border: none !important;
+  }
+
+  .accordionIcon {
+    position: relative;
+    color: transparent;
+  }
+
+  .accordionIcon::after {
+    color: #474b4d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    /* margin-left: 0.255em; */
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .menuItem--header-submenu-title {
+    display: none;
+  }
+
+  .styledLink .styledLinkContent--header-menu-title {
+    font-family: "SpartanBold";
+  }
+}

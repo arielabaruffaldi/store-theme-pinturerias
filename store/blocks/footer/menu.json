@@ -4,11 +4,17 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "category-menu"
     ]
+  },
+  "category-menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": [],
+      "sortSubcategories": "name"
+    }
   },
   "menu-item#news": {
     "props": {

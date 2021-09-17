@@ -108,7 +108,6 @@
       "flex-layout.row#product-name",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
-      "tintometric#v4",
       "product-installments",
       "product-separator",
       "product-identifier.product",
@@ -121,11 +120,6 @@
       "shipping-simulator",
       "share#default"
     ]
-  },
-  "tintometric#v4": {
-    "props": {
-      
-    }
   },
   "flex-layout.row#product-name": {
     "props": {
@@ -169,8 +163,7 @@
       "blockClass": "info-availability"
     },
     "children": [
-      "flex-layout.row#product-name",/* 
-      "tintometric", */
+      "flex-layout.row#product-name",
       "product-identifier.product",
       "sku-selector",
       "flex-layout.row#availability"
