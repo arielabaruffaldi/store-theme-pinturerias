@@ -2,18 +2,6 @@
   "vtex.menu@2.x:menu#Products": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "category-menu"
-    ]
-  },
-  "category-menu": {
-    "props": {
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "departments": [],
-      "sortSubcategories": "name"
     }
   },
   "menu-item#news": {

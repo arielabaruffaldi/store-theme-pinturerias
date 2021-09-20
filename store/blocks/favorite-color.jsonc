@@ -6,14 +6,9 @@
   },
   "flex-layout.row#favorite-color":{
     "children": [
-      "favorite-color"
     ],
     "props": {
       "blockClass": "favorite-color--container"
-    }
-  },
-  "favorite-color": {
-    "props": {
     }
   }
 }
